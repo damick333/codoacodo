@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+}
+
+.navbar{
+   background-color: #34393f;
+}
+
+.marca:hover{
+  font-size: 17px;
+  top: 1px;
+  right: 5px;
+  position: relative;
+}
+
+
+
+.fondo{
+  /*filter: brightness(50%);*/
+	background-image: url(../images/ba1.jpg); 
+ 	background-size: cover;
+/* 	background-attachment: fixed; */ 	
+  background-position: 50% 75%;
+ 	z-index: 0;
+  overflow-x: hidden;
+  padding-bottom:10rem;
+}
+
+.btn-outline-light:hover{
+  border:none;
+  background-color: #29a744;
+  color: #ffffff;
+}
+
+.oradores{
+  text-align: center;
+
+}
+
+.oradores p{
+  margin-bottom: 0px;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.oradores h4{
+  font-size: 28px;
+}
+
+.fz-12{
+  font-size: 12px;
+}
+
+.fz-13{
+  font-size: 13px;
+}
+
+.fz-15{
+  font-size: 15px;
+}
+
+.fz-24{
+  font-size: 24px;
+}
+
+.bg-gray-dark{
+  background-color: #34393f;
+}
+
+input::placeholder{
+  font-size: 14px;
+}
+
+  textarea::placeholder {
+  font-size: 19px;
+}
+
+.fongrad{
+  background-color: #1a3644; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #1a445b , #1b5271);
+}
+
+.fongrad a{
+  font-size: 18px;
+}
+
+.verde{
+  border:#96c93e;
+  background-color: #96c93e;
+}
+
+.verde:hover{
+   background-color: #96c93e;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+/*.marca{
+  color: #eaeaea;
+}
+
+
+
+
+
+
+.comprar{
+  color: #29a744 !important  ;
+}
+
+.card{
+  width: 100%;
+  max-width: 300px;
+  margin: 0px;
+  text-align: center;
+}
+
+.col{
+  text-align: center !important;
+  margin: auto;
+}
+
+img{
+  display: inline-block;
+}
+
+
+
+
+.card{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-group{
+  text-align: center;
+}*/
